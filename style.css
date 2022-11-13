@@ -168,6 +168,9 @@
     max-width: 1300px;
     padding: 0;
   }
+  #navbar__logo {
+    justify-content: center;
+  }
   .navbar__menu {
     display: grid;
     grid-template-columns: auto;
@@ -210,10 +213,14 @@
   }
   .navbar__btn {
     padding-bottom: 2rem;
-  }
+    width: 80%;
+margin: 0 auto;  }
   .navbar__btn:hover {
     transform: scale(1.05);
     transition: 0.3s ease-in-out;
+  }
+  .navbar__btn a {
+    font-size: 1.2rem;
   }
   #mobile-menu {
     position: absolute;
@@ -257,6 +264,7 @@
   margin-top: 2rem;
   font-size: 1.5rem;
   color: var(--color-main);
+  text-decoration: none;
 
 }
 .hero__heading {
@@ -609,6 +617,8 @@
   font-size: 1.5rem;
   margin: 1rem;
   text-align: left;
+  text-decoration: none;
+
 }
 .footer__container p {
   color: var(--color-main);
@@ -680,6 +690,7 @@
   }
   .footer__btn {
     font-size: 1.2rem;
+    width: 100%;
   }
   .website__rights p {
     font-size: 0.8rem;
