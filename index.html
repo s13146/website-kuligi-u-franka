@@ -24,7 +24,7 @@
     <!-- Navbar -->
     <nav class="navbar">
       <div class="navbar__container">
-        <a href="" id="navbar__logo"><img src="./photos/logo1.svg" /></a>
+        <a href="" id="navbar__logo"><img src="./photos/logo1.svg" alt="Logo Kuligi u Franka"/></a>
         <div class="navbar__toggle" id="mobile-menu">
           <span class="bar"></span>
           <span class="bar"></span>
@@ -61,18 +61,18 @@
       <div class="hero__container">
         <h1 class="hero__heading">Kuligi konne na Kaszubach</h1>
         <p class=".hero__container">Zapisz numer: 603-956-958</p>
-        <li class="hero__btn">
+        <div class="hero__btn">
           <a href="tel:+48 603-956-958" class="button" id="call">Kliknij i zadzwoń!
           </a>
-        </li>      
+        </div>      
       </div>
-      <img src="./photos/group1.jpeg" class="hero__img" alt="Kulig nocny" />
+      <img src="./photos/group1.jpeg" class="hero__img" alt="Kulig nocny z uczestnikami" />
     </div>
     
     <!--- About Section -->
     <div class="main" id="about">
       <div class="main__container">
-        <div class="main_img--card">
+        <div class="main__img--card">
             <img
               src="./photos/about.jpg"
               class="about__img"
@@ -82,7 +82,7 @@
         <div class="main__content">
           <h1>O nas</h1>
           <p>
-            Kultywujemy pond 50 letnią rodzinną tradycję kuligowania z turystami
+            Kultywujemy ponad 50 letnią rodzinną tradycję kuligowania z turystami
             po kaszubskich lasach. Zachęcamy państwa do przeżycia tych
             niezapomnianych chwil właśnie w Szymbarku, właśnie u nas!
           </p>
@@ -91,13 +91,13 @@
         <div class="main__wrapper">
            
             <div class="main__photo__card">
-                <img src="./photos/old1.JPG" class="old__img" alt="Kulig nocny" />
+                <img src="./photos/old1.JPG" class="old__img" alt="Zdjęcie zaprzegu konnego z lat 60 XX" />
             </div>
             <div class="main__photo__card">
-                <img src="./photos/old2.JPG" class="old__img" alt="Kulig nocny" />
+                <img src="./photos/old2.JPG" class="old__img" alt="Zaprzeg konny w latach 60 XX" />
             </div>
             <div class="main__photo__card">
-                <img src="./photos/old3.JPG" class="old__img" alt="Kulig nocny" />
+                <img src="./photos/old3.JPG" class="old__img" alt="Zdjęcie przedstawia zaprzęg konny" />
             </div>
 
         </div>
@@ -105,7 +105,7 @@
     </div>
       <!-- We Ofer -->
       <div class="services" id="ofert">
-        <h3>Oferujemy atrakcję na każdą porę roku!</h3>
+        <h3 id="ofert">Oferujemy atrakcję na każdą porę roku!</h3>
         <p class="services_p">Jedzenie i picie uczestnicy organizują we własnym zakresie.
             Zapewniamy zaprzęg konny, który składa się z: pary koni, dużych sań mieszczących do 5 osób, małych saneczek trzy osobowych w ilości zależnej od wielkości grupy (zazwyczaj 5-7 sztuk). Prosimy o wcześniejszą rezerwacje na dany dzień i godzinę. Gwaranujemy niezapomnianą przygodę.</p>
         <div class="services__wrapper">
@@ -113,11 +113,9 @@
             <img src="./photos/day1.JPG" class="serviceWinter__jpg" alt="Kulig dzienny">
             <h2>Kuligi dzienne</h2>
             <p>
-              Gdy tylko warunki sprzyjają zapraszamy na kulig po kaszubskim
-              lesie z pieczeniem kiełbasek przy ognisku.
+              Gdy tylko warunki sprzyjają zapraszamy na kulig w ciągu dnia po kaszubskim lesie. Na trasie przystanek - ognisko z pieczeniem kiełbasek.
             </p>
           </div>
-
           <div class="services__card">           
              <img src="./photos/group2.jpeg" class="serviceWinter__jpg" alt="Kulig nocny">
             <h2>Kuligi nocne</h2>
@@ -126,23 +124,19 @@
                 nadają wyjątkowy klimat chwili. Na trasie ognisko z kiełbasami.
               </p>
           </div>
-          </div>
-          <div class="services__wrapper">
-
+          
           <div class="services__card">            
             <img src="./photos/wozdrabiniasty2.JPG" class="serviceSummer__jpg" alt="Woz drabiniasty">
             <h2>Wóz drabiniasty</h2>
             <p>
-              Gdy tylko warunki sprzyjają zapraszamy na kulig po kaszubskim
-              lesie z pieczeniem kiełbasek przy ognisku.
+              Przejażdżka wozem drabiniastym to świetny pomysł na wycieczkę w ciepłe dni. Możliwosc zorganizowania ogniska.
             </p>
           </div>
           <div class="services__card">
             <img src="./photos/bryczka2.JPG" class="serviceSummer__jpg" alt="Bryczka">
             <h2>Bryczka</h2>
             <p>
-              Gdy tylko warunki sprzyjają zapraszamy na kulig po kaszubskim
-              lesie z pieczeniem kiełbasek przy ognisku.
+              Przejazd bryczką to idealny pomysł dla małej grupy osób w letnie dni. Podczas wyprawy podziwać można piękne kaszubskie krajobrazy.  
             </p>
           </div>
           </div>
@@ -151,7 +145,7 @@
     </div>
     <!--Gallery-->
     <div class="gallery" id="gallery">
-      <h1 class="gallery__text">Galeria</h1>
+      <h1 class="gallery__text" >Galeria</h1>
       <ul class="gallery__content">
         <li class="thumbnail"><img src="./photos/horse2.JPG" alt=""></li>
         <li class="thumbnail"><img src="./photos/day1.JPG" alt=""></li>
@@ -181,10 +175,10 @@
                 </p>
                 <p>83-315 Szymbark, ul. Szymbarskich Zakładników 3</p>
                 <h1>tel. 603-956-958</h1>
-                <li class="footer__btn">
+                <div class="footer__btn">
                   <a href="tel:+48 603-956-958" class="button" id="call">Kliknij i zadzwoń!
                   </a>
-                </li>   
+                </div>   
                 <p>Rezerwacje przyjmujemy tylko i wyłącznie telefonicznie</p>
           
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9331.376644629227!2d18.102625!3d54.218247!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x24d2ea513f42be5d!2sKuligi%20Szymbark!5e0!3m2!1spl!2spl!4v1668345680306!5m2!1spl!2spl" width="400" height="250" style="border:2;
@@ -195,7 +189,7 @@
           
         </div>
         <div class="website__rights">
-            <p>Kuligi u Franka 2022. All right reserved. Katarzyna Węsierska</p>
+            <p>Kuligi u Franka 2022. All rights reserved. Katarzyna Węsierska</p>
         </div>
     </div>
 

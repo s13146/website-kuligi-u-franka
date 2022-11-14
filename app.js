@@ -1,13 +1,22 @@
 const menu = document.querySelector('#mobile-menu')
 const menuLinks = document.querySelector('.navbar__menu')
+// Galery
+
+
 
 // Display Mobile Menu 
 const mobileMenu = ( ) => {
     menu.classList.toggle('is-active')
     menuLinks.classList.toggle('active')
+
 }
 menu.addEventListener('click',mobileMenu);
 
+
+
+
+
+// Load function 
 var preload = document.createElement('div');
 
 preload.className = "preloader";
