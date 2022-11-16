@@ -10,6 +10,21 @@ const arrow_right=document.querySelector(".popup__arrow--right")
 
 let currentImgIndex;
 
+
+// Load function 
+var preload = document.createElement('div');
+
+preload.className = "preloader";
+preload.innerHTML = '<div class="b-ico-preloader"></div><div class="spinner"></div>';
+document.body.appendChild(preload);
+
+window.addEventListener('load', function() {
+  preload.className +=  ' fade';
+  setTimeout(function(){
+  preload.style.display = 'none';
+  },100);
+})
+
 const showNextImage =() =>{
   if(currentImgIndex=== thumbanils.length-1){
     currentImgIndex=0;
@@ -87,16 +102,3 @@ menu.addEventListener('click',mobileMenu);
 
 
 
-// Load function 
-var preload = document.createElement('div');
-
-preload.className = "preloader";
-preload.innerHTML = '<div class="b-ico-preloader"></div><div class="spinner"></div>';
-document.body.appendChild(preload);
-
-window.addEventListener('load', function() {
-  preload.className +=  ' fade';
-  setTimeout(function(){
-  preload.style.display = 'none';
-  },1000);
-})
