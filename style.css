@@ -455,6 +455,7 @@
   }
   .main__content h1 {
     font-size: 2rem;
+    margin-top: 2rem;
   }
   .main__content p {
     margin-top: 1rem;
@@ -472,7 +473,7 @@
 }
 @media screen and (max-width: 375px) {
   .main__photo__card {
-    max-width: 60vw;
+    max-width: 70vw;
   }
 }
 @media screen and (max-width: 1300px) {
@@ -500,6 +501,7 @@
   font-size: 2.5rem;
   text-align: center;
   color: var(--color-main);
+  
 }
 .services_p {
   font-family: "Lato", sans-serif;
@@ -587,10 +589,26 @@
 @media screen and (max-width: 768px) {
   .services__wrapper {
     grid-template-columns: 1fr;
+    padding-top: 2rem;
+    padding-right: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 0rem;
   }
   .services__card {
-    max-width: 80vw;
+    max-width: 70vw;
+    height: 80%;
+    margin: 0;
   }
+  .services h3 {
+    font-size: 1.5rem;
+    padding: 0 2rem;
+  
+  }
+}
+@media screen and (max-width: 425px) {
+  services h3 {
+    font-size: 1rem;
+}
 }
 /* Gallery */
 .gallery {
@@ -799,17 +817,15 @@
     display: grid;
     justify-content: space-around;
     align-items: center;
-    padding: 2rem;
   }
   .footer__text {
-    padding: 0rem 4rem;
   }
   .contact__img {
     width: 75%;
   }
   .footer__img {
     text-align: center;
-    padding: 2rem;
+    padding-top: 4rem;
   }
   .footer__container h1 {
     color: var(--color-main);
@@ -820,7 +836,6 @@
   }
   .footer__btn {
     font-size: 1.2rem;
-    width: 90vw;
   }
   .footer__btn:hover {
     transform: scale(1.03);
