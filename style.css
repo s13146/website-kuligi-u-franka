@@ -789,6 +789,12 @@
   margin: 1rem;
   text-align: left;
   text-decoration: none;
+  -webkit-text-decoration-line: none;
+  
+}
+a[href^="tel"]{
+  color:inherit;
+  text-decoration:none;
 }
 .footer__container p {
   color: var(--color-main);
@@ -846,6 +852,9 @@
   }
   .footer__img {
     text-align: center;
+    padding-left: 0;
+    padding-bottom: 0;
+    padding-right: 0;
     padding-top: 4rem;
   }
   .footer__container h1 {
