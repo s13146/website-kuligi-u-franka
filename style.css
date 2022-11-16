@@ -104,8 +104,8 @@
 }
 #navbar__logo {
   display: flex;
-  height: 300%;
-  margin-top: -80px;
+  margin-top: 10px;
+  width: 90%;
 }
 
 .navbar__menu {
@@ -596,7 +596,7 @@
   }
   .services__card {
     max-width: 70vw;
-    height: 80%;
+    height: 90%;
     margin: 0;
   }
   .services h3 {
@@ -682,6 +682,25 @@
   height: 80%;
   border: 3px solid var(--color-main);
   border-radius: 10px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background: var(--color-orange);
+  color: #000;
+  transition: all 0.3s ease;
+}
+.button:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease-in-out;
 }
 .popup__close {
   background-color: transparent;
